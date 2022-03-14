@@ -1,0 +1,11 @@
+import tkinter
+import tkinter as tk
+
+app = tk.Tk()
+
+app.geometry('300x400')
+app.title("Mega Sena")
+app.iconphoto(False, tk.PhotoImage(file='mega-sena.png'))
+
+
+app.mainloop()
